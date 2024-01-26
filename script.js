@@ -3,7 +3,8 @@ function carregar() {
     let img = document.getElementById('img')
     let data = new Date()
     let hora = data.getHours() 
-    msg.innerHTML = `Agora são ${hora} horas`
+    let min = data.getMinutes()
+    msg.innerHTML = `Agora são: ${hora} horas e ${min} minutos.`
 
     if (hora >= 0 && hora < 12) {
         img.src = 'imgs/manha.jpg' 
