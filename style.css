@@ -7,9 +7,18 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: #2c61d4;
     font: normal 18px arial;
     color: white;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
 }
 
 header {
@@ -24,7 +33,7 @@ section {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
     color: black;
